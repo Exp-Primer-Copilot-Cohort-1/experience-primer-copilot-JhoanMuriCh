@@ -1,9 +1,7 @@
 function skillsmember() {
     return {
-      restrict: 'E',
-      scope: {
-        data: '='
-      },
-      templateUrl: 'templates/member.html'
+        // Path: member.js
+        restrict: 'E',
+        templateUrl: 'templates/skills.html'
     };
-  } 
+}
